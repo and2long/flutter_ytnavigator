@@ -16,5 +16,19 @@ The interface navigation tools used in the YT team.
 ## Usage
 
 ```dart
-import 'package:yt_navigation/yt_navigation.dart';
+import 'package:yt_navigation/navigator_util.dart';
+
+NavigatorUtil.push(
+  context,
+  const HomePage(),
+);
+```
+
+```dart
+import 'package:yt_navigation/navigator_observer.dart';
+
+MaterialApp(
+    ...
+    navigatorObservers: [NavigatorObserver()],
+)
 ```
