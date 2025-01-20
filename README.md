@@ -13,20 +13,26 @@ and the Flutter guide for
 
 The interface navigation tools used in the YT team.
 
+# Getting Started
+Add this to your package's pubspec.yaml file:
+
+```
+dependencies:
+  flutter_ytnavigator: 0.0.1
+```
+
 ## Usage
-
+### Push Page
 ```dart
-import 'package:yt_navigation/navigator_util.dart';
-
 NavigatorUtil.push(
   context,
   const HomePage(),
 );
 ```
 
+### Add NavigatorObserver
+When the interface changes, print the interface name in the log window.
 ```dart
-import 'package:yt_navigation/navigator_observer.dart';
-
 MaterialApp(
     ...
     navigatorObservers: [NavigatorObserver()],
