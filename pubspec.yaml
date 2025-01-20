@@ -1,7 +1,7 @@
 name: flutter_ytnavigator
 description: "Navigator Util."
 version: 0.0.1
-homepage: https://github.com/and2long/flutter_ytlog
+homepage: https://github.com/and2long/flutter_ytnavigator
 
 environment:
   sdk: ^3.5.4
