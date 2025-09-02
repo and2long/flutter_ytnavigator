@@ -1,3 +1,6 @@
+## 0.0.4
+- Bump versions of Deps
+
 ## 0.0.3
 * Update README.md
 
