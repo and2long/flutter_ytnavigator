@@ -1,3 +1,6 @@
+## 0.0.6
+- Rename NavigatorObserver to YTNavigatorObserver
+
 ## 0.0.5
 - Bump versions of Deps
 

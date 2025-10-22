@@ -22,6 +22,9 @@ dependencies:
 ```
 
 ## Usage
+### import package
+`import 'package:flutter_ytnavigator/flutter_ytnavigator.dart';`
+
 ### Push Page
 ```dart
 NavigatorUtil.push(
@@ -30,11 +33,11 @@ NavigatorUtil.push(
 );
 ```
 
-### Add NavigatorObserver
+### Add YTNavigatorObserver
 When the interface changes, print the interface name in the log window.
 ```dart
 MaterialApp(
     ...
-    navigatorObservers: [NavigatorObserver()],
+    navigatorObservers: [YTNavigatorObserver()],
 )
 ```

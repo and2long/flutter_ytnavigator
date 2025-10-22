@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ytlog/flutter_ytlog.dart';
 
-class NavigatorObserver<R extends Route<dynamic>> extends RouteObserver<R> {
+class YTNavigatorObserver<R extends Route<dynamic>> extends RouteObserver<R> {
   final String _tag = 'NavigatorObserver';
 
   @override
