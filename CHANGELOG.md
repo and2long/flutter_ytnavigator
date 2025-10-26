@@ -1,3 +1,6 @@
+## 0.0.7
+- 适配 fluter3.35
+
 ## 0.0.6
 - Rename NavigatorObserver to YTNavigatorObserver
 

@@ -1,6 +1,6 @@
 name: flutter_ytnavigator
 description: "Navigator Util."
-version: 0.0.6
+version: 0.0.7
 homepage: https://github.com/and2long/flutter_ytnavigator
 
 environment:
@@ -10,8 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  page_transition: ^2.2.1
-  swipeable_page_route: ^0.4.7
   flutter_ytlog: 0.0.4
 
 dev_dependencies:
