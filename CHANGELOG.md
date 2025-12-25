@@ -1,3 +1,6 @@
+## 0.0.8
+- Upgrade the version of flutter_ytlog
+
 ## 0.0.7
 - 适配 fluter3.35
 
